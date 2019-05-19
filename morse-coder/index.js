@@ -15,7 +15,7 @@ const parse = text => {
   } else if (!/[.,\/#!'$%\^&\*;:{}=\-_`~()]/g.test(text) && /[abcdefghijklmnopqrstuvwxyz]/g.test(text)) {
     result = encode(text);
   }
-  
+
   if (result) return {
     original: text,
     result,
