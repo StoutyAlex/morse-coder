@@ -1,0 +1,15 @@
+{
+  "name": "morse-coder",
+  "version": "1.0.0",
+  "description": "Translate morse code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bst": "bst proxy lambda index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
